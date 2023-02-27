@@ -1,0 +1,240 @@
+* {
+    font-family: 'Signika', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+}
+
+.dark {
+    background-color: darkslateblue;
+}
+
+.dark .titulo {
+    color: white;
+}
+
+.dark .parrafo {
+    color: white;
+}
+
+.dark .link {
+    color: white;
+}
+
+.dark .menu {
+    background-color: rgb(29, 27, 27);
+}
+
+.dark #perfil {
+    background-color: rgb(29, 27, 27);
+}
+.dark #experiencia {
+    background-color: rgb(29, 27, 27);
+}
+.dark #formacion {
+    background-color: rgb(29, 27, 27);
+}
+.dark #info_personal {
+    background-color: rgb(29, 27, 27);
+}
+.dark h4 {
+    color: white;
+}
+.dark .estudios {
+    color: white;
+}
+.dark .pie_de_pagina {
+    color: white;
+}
+.dark #botonO {
+    color: white;
+    background-color: rgb(29, 27, 27);
+    border: none;
+}
+.dark #botonM {
+    color: white;
+    background-color: darkslateblue;
+    border: none;
+}
+.dark #interruptor {
+    background-color: rgb(29, 27, 27);
+}
+.dark a:hover { 
+    color: red;
+}
+.dark a:active {
+    color: red;
+}
+.dark .parrafo_f {
+    color: white;
+}
+.dark .formulario {
+    color: white;
+    background-color: rgb(29, 27, 27);
+}
+
+@media only screen and (max-width: 700px){
+    body {font-size: 12px;}
+    .titulo {font-size: 12px;}
+    .menu {font-size: 12px;}
+}
+
+.titulo {
+    color: blue;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    border: 5px rgb(215, 240, 248) outset;
+    border-radius: 5px;
+    background-color: rgb(200, 223, 231);
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: fixed;
+}
+
+#mail, #ln, #insta, #luna, #sol {
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 700px){
+    .menu{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #mail, #ln, #insta, #luna, #sol {
+        height: 12px;
+        width: 12px;
+    }
+}
+
+#interruptor {
+        border: none;
+        border-radius: 1000px;
+        background-color: rgb(200, 223, 231);
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        padding-left: 7px;
+}
+
+a:link, a:visited { 
+    color: blue;
+    text-decoration: none;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+}
+
+
+a:hover , a:active { 
+    color: blueviolet;
+    text-decoration: none;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+}
+
+.parrafo {
+    color: rgba(0, 0, 0, 0.623);
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+
+#foto_perfil {
+    width: 45%;
+    float: left;
+    margin: 15px;
+}
+
+#perfil, #experiencia, #formacion, #info_personal {
+    border: 2px rgb(215, 240, 248) solid;
+    border-radius: 5px;
+    background-color: rgb(200, 223, 231);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#info_personal {
+    display: none;
+}
+
+h4 {
+    margin-left: 35px;
+}
+.estudios, h4 {
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.boton {
+    color: rgba(0, 0, 0, 0.623);
+    margin-top: 1px;
+    margin-left: 7px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+#botonM, #botonO {
+    background-color: rgb(200, 223, 231);
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    #botonM, #botonO {
+        font-size: 10px;
+    }
+}
+
+.pie_de_pagina {
+    color: slateblue;
+    text-align: center;
+}
+
+.parrafo_f {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.623);
+}
+.formulario {
+    border: 2px rgb(215, 240, 248) solid;
+    border-radius: 5px;
+    background-color: rgb(200, 223, 231);
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+#boton_mail {
+    margin-bottom: 15px;
+    width: 70px;
+    height: 25px;
+}
+
+@media screen and (max-width: 700px){
+    #boton_mail {
+        font-size: 10px;
+        width: 45px;
+        height: 20px;
+    }
+}
+
+#info_personal p {
+    text-align: center;
+}
+
+#experiencia p {
+    text-align: center;
+}

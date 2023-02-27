@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="currículum online" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.mycvweb.com/index/" />
+    <meta property="og:image" content="https://www.mycvweb.com/index/imagenes/Foto_de_stock_perfil.png" />
+    <meta property="og:description" content="Curriculum Vitae online de un profesional de atención al cliente" />
+    
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="imagenes/CVicon.png">
+    <title>Contáctame</title>
+</head>
+<body class="">
+    <header>
+        <nav class="menu">
+            <a class="link" href="index.html#perfil">Perfil</a>
+            <a class="link" href="index.html#experiencia">Experiencia</a>
+            <a class="link" href="index.html#formacion">Formación</a>
+            <a class="link" href="index.html#info_personal" onclick="mostrar();">Personal</a>
+            <a href="contacto.html" target="_self"><img id="mail" src="imagenes/emaillogo.png" alt="contáctame"></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><img id="ln" src="imagenes/lnlogo.png" alt="mi linkedin"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img id="insta" src="imagenes/instalogo.png" alt="mi instagram"></a>
+            <span id="interruptor">
+                <img id="luna" src="imagenes/dark-mode.png" alt="modo oscuro">
+            </span>
+        </nav>
+        <br>
+        <br>
+        <h1 class="titulo">Te doy la bienvenida a mi currículum online</h1>
+    </header>
+
+
+    <h2 class="titulo">Envíame un mensaje</h2>
+    <p class="parrafo_f">Si tienes alguna propuesta laboral que hacerme no dudes en contactarme, responderé a la brevedad</p>
+    <form class="formulario" action="" method="post">
+        <label for="nombre_apellido">Nombre y Apellido: </label>
+        <br>
+        <input type="text" id="nombre_apellido" name="nombre_apellido" placeholder="           Juan Gomez" required/>
+        <br>
+        <label for="telefono">Tu Teléfono: </label>
+        <br>
+        <input type="number" id="telefono" name="telefono" placeholder="            4805-2626" required/>
+        <br>
+        <label for="email">Tu email: </label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="       juan@gmail.com" required/>
+        <br>
+        <label for="mensaje">Mensaje: </label>
+        <br>
+        <textarea cols="46" rows="10" ></textarea>
+        <br>     
+        <input id="boton_mail" type="submit" value="Enviar" />
+    </form>
+    <script src="js/function.js"></script>
+</body>
+</html>

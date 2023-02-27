@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="currículum online" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.mycvweb.com/index/" />
+    <meta property="og:image" content="https://www.mycvweb.com/index/imagenes/Foto_de_stock_perfil.png" />
+    <meta property="og:description" content="Curriculum Vitae online de un profesional de atención al cliente" />
+    
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="imagenes/CVicon.png">
+    <title>CV online</title>
+</head>
+<body class="">
+    <header>
+        <nav class="menu">
+            <a class="link" href="#perfil">Perfil</a>
+            <a class="link" href="#experiencia">Experiencia</a>
+            <a class="link" href="#formacion">Formación</a>
+            <a class="link" href="#info_personal" onclick="mostrar();">Personal</a>
+            <a href="contacto.html" target="_self"><img id="mail" src="imagenes/emaillogo.png" alt="contáctame"></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><img id="ln" src="imagenes/lnlogo.png" alt="mi linkedin"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img id="insta" src="imagenes/instalogo.png" alt="mi instagram"></a>
+            <span id="interruptor">
+                <img id="luna" src="imagenes/dark-mode.png" alt="modo oscuro">
+            </span>
+        </nav>
+        <br>
+        <br>
+        <h1 class="titulo">Te doy la bienvenida a mi currículum online</h1>
+    </header>
+
+    <main>
+        <section id="perfil">
+            <article>
+                <h2 class="titulo">Mi perfil</h2>
+                <img src="imagenes/Foto_de_stock_perfil.png" alt="Mi foto de perfil" id="foto_perfil">
+                <p class="parrafo">Soy un profesional del servicio de atención al cliente, comprometido y experimentado, con varios años de experiencia. </p>
+                <p class="parrafo">Me desempeño en entornos exigentes y de ritmo rápido, trabajando para proporcionar a los clientes el más alto nivel de atención. </p>
+                <p class="parrafo">Siempre comprometido con la búsqueda de soluciones para ayudar a retener una sólida base de clientes y mantenerlos satisfechos.</p>
+                <p class="parrafo">Mi principal objetivo es seguir aprendiendo y desarrollarme profesionalmente.</p> 
+                <br>
+                <br>
+            </article>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="experiencia">
+            <h2  class="titulo">Mi experiencia laboral</h2>
+            <article>
+                <h3 class="titulo">Departamento de Atencion al cliente - Fravega</h3>
+                <p class="parrafo">Gestión de quejas y reclamos de los clientes</p>
+                <p class="parrafo">Formación y supervición de nuevos empleados para el departamento</p>
+                <p class="parrafo">Apoyo en la gestión de envíos, entregas y pedidos</p>
+            </article>
+            <article>
+                <h3 class="titulo">Administrativo de Atencion Telefonica - Palermo Materiales</h3>
+                <p class="parrafo">Manejo de llamadas, recopilación de información personal y gestión de horarios</p>
+                <p class="parrafo">Gestionar los pedidos y proporcionar a los clientes información sobre los productos ofrecidos</p>
+            </article>
+            <article>
+                <h3 class="titulo">Recepcionista - Estudio Jurídico</h3>
+                <p class="parrafo">Recepción de clientes y provisión de información</p>
+                <p class="parrafo">Mantenimiento de registros precisos de clientes</p>
+                <p class="parrafo">Administración de la base de datos de la oficina y el correo</p>
+                <p class="parrafo">Coordinación y programación de todas las reuniones de la companía, citas y entrevistas</p>
+            </article>
+        </section>
+        <section id="formacion">
+            <article>
+                <h3 class="titulo">Mi formación</h3>
+                <h4>Cursos terminados / Institución</h4>
+                <ul class="estudios">
+                    <li>Ejecutivo de Atencion Telefonica / IAV - Instituto Argentino de Ventas</li>
+                    <li>Satisfacción al Cliente / GMV</li>
+                    <li>Calidad en la Atención y Servicio al Cliente / IASE - Instituto Argentino de Secretarias Ejecutivas</li>
+                    <li>Recepcionista / JEOMARKET S.A.</li>
+                    <li>Administración de las Quejas y Objeciones / Centro de e-Learning UTN BA</li>
+                    <li>Estrategias para Fidelizar Clientes / Avanzza</li>
+                    <li>Teleoperadores / EDUCENTRO Educación y Capacitación</li>
+                    <li>Gestión de Quejas y Reclamos / educar - asesorar</li>
+                </ul>
+            </article>
+        </section>
+        <script src="js/function.js"></script>
+        <div class="boton">
+            <button id="botonM" onclick="mostrar();">Mostrar información personal</button>
+        </div>
+        <section id="info_personal">
+            <button id="botonO" onclick="ocultar();">Ocultar información personal</button>
+            <h3 class="titulo">Información personal</h3>
+            <p class="parrafo">dirección: Lavalle 330, C1053 CABA (Argentina)</p>
+            <p class="parrafo">Teléfono: 4321-1200</p>
+            <p class="parrafo">juan.rodrigo.perez88@correo.com.ar</p>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer class="pie_de_pagina">
+        <span>Todos los datos presentados son ficticios</span>
+        <br>
+        <span>Proyecto integrador "primeros pasos frontend" academia Ticmas</span>
+        <br>
+        <span>Argentina Programa 4.0</span>
+    </footer>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
