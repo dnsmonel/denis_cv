@@ -3,6 +3,8 @@ Ticmas Primeros pasos en desarrollo frontend - Argentina programa 4 .0
 
 Trabajo integrador escrito en HTML, CSS y JavaScript
 
+Enlace al trabajo: https://dnsmonel.github.io/denis_cv/
+
 Currículum con las siguientes características principales:
 - Menú horizontal que acompaña el scroll en la página
 - Links a las diferentes secciones del documento, así como a redes sociales
